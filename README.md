@@ -161,4 +161,4 @@ You can download the demo project at https://github.com/SleepingOwlAdmin/demo
 
 ## Copyright and License
 
-Admin was written by Sleeping Owl for the Laravel framework and is released under the MIT License. See the LICENSE file for details.
+Admin was written by Sleeping Owl for the Laravel framework and is released under the MIT License. See the LICENSE file for details
