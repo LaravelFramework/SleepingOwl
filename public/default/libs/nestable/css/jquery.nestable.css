@@ -55,8 +55,8 @@
     cursor:      pointer;
     float:       left;
     width:       25px;
-    height:      20px;
-    margin:      7px 0;
+    height:      25px;
+    margin-top: .3em;
     padding:     0;
     text-indent: 100%;
     white-space: nowrap;
@@ -66,7 +66,6 @@
     font-size:   10px;
     line-height: 1;
     text-align:  center;
-    font-weight: bold;
 }
 
 .dd-item > button:before {
@@ -129,14 +128,26 @@
     display:               block;
     height:                30px;
     margin:                5px 0;
-    padding:               5px 10px 5px 40px;
-    color:                 #333;
+    padding:               0 10px 0 40px;
     text-decoration:       none;
     font-weight:           400;
-    border:                1px solid #ccc;
+    border:                1px solid #e5e5e5;
     background:            #fafafa;
     box-sizing:            border-box;
     -moz-box-sizing:       border-box;
+}
+
+.dd3-content #value {
+    line-height: 28px;
+    color: #0a0a0a;
+    cursor: default;
+}
+
+/*
+ кнопки
+*/
+.dd3-content .btn-xs {
+    margin-top: .21em;
 }
 
 .dd3-not-reorderable .dd3-content {
@@ -153,7 +164,8 @@
 }
 
 .dd3-item > button {
-    margin-left: 30px;
+    margin-left: 34px;
+    margin-right: .3em;
 }
 
 .dd3-not-reorderable.dd3-item > button {
@@ -170,7 +182,7 @@
     text-indent:                100%;
     white-space:                nowrap;
     overflow:                   hidden;
-    border:                     1px solid #aaa;
+    border:                     1px solid #cdcdcd;
     background:                 #ddd;
     border-top-right-radius:    0;
     border-bottom-right-radius: 0;

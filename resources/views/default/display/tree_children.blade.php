@@ -5,7 +5,7 @@
         @endif
         <div class="dd3-content">
 
-            {{{ $entry->$value }}}
+            <span id="value">{{{ $entry->$value }}}</span>
 
             <div class="pull-right">
                 @foreach ($controls as $control)
