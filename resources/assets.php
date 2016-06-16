@@ -103,7 +103,7 @@ PackageManager::add('Sortable')
 */
 
 WysiwygManager::register('ckeditor')
-    ->js(null, '//cdn.ckeditor.com/4.5.7/standard/ckeditor.js', ['jquery']);
+    ->js(null, 'packages/sleepingowl/default/libs/ckeditor/ckeditor.js', ['jquery']);
 
 WysiwygManager::register('tinymce')
     ->js(null, '//cdn.tinymce.com/4/tinymce.min.js', ['jquery']);
